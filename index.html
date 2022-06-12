@@ -4,17 +4,16 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
   <header class="page-header">
+    <a class="header-logo" href="index.html">
+      <img class="logo" src="images/logo-sedona.svg" width="139" height="70" alt="Логотип Города Седона">
+    </a>
     <nav class="navigation">
       <ul class="navigation-list">
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">
-            <img class="logo" src="/images/logo_sedona.svg" width="139" height="70" alt="Логотип Города Седона">
-          </a>
-        </li>
         <li class="navigation-item">
           <a class="navigation-link" href="#">
             Главная
@@ -30,17 +29,17 @@
       <ul class="navigation-user">
         <li class="navigation-user-item">
           <a class="navigation-link" href="3">
-            <img class="search" src="/images/search.svg" width="42" height="66" alt="Поиск">
+            <img class="search" src="images/search.svg" width="42" height="66" alt="Поиск">
           </a>
         </li>
         <li class="navigation-user-item">
           <a class="navigation-link" href="#">
-            <img class="favorite" src="/images/favorite.svg" width="18.05" height="17" alt="Лайки">
+            <img class="favorite" src="images/favorite.svg" width="18.05" height="17" alt="Лайки">
           </a>
           <span class="favorite-number">12</span>
         </li>
         <li class="navigation-item ">
-          <a class="navigation-link-brown" href="#">Хочу сюда</a>
+          <a class="navigation-link-brown" href="#">Хочу сюда!</a>
         </li>
       </ul>
     </nav>
@@ -49,7 +48,7 @@
     <section class="main-header">
       <div class="main-header-welcome-background">
         <div class="main-header-welcome">
-          <img class="image-welcome" src="images/index/index_welcome.svg" width="458" height="352"
+          <img class="image-welcome" src="images/index/index-welcome.svg" width="458" height="352"
             alt="Добро пожаловать">
         </div>
         <div class="main-header-welcome-background-divider">
@@ -61,50 +60,52 @@
       </div>
     </section>
     <section class="main-advantage">
-      <ol class="advantage">
+      <ul class="advantage">
         <li class="title-advantage-numbering-city">
           <h3 class="headline-advantages">Настоящий городок</h3>
+          <span class="number-advantage">— №1 —</span>
           <p class="advantage-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-          <img class="advantage-reason-city" src="/images/reason_1.jpg" width="800" height="384"
+          <img class="advantage-reason-city" src="images/reason-1.jpg" width="800" height="384"
             alt="Тихая улица города с высоты второго этажа, с гормами на заднем фоне">
         <li class="title-advantage-numbering-house">
-          <img class="title-advantage-numbering-house-image" src="images/index/index_house.svg" width="74,7" height="72"
-            alt="">
-          <h4 class="headline-advantage-city-title">Жильё</h4>
+          <div class="title-advantage-numbering-house-image"></div>
+          <h4 class="headline-advantages">Жильё</h4>
           <p class="advantage-description">Рекомендуем пожитьв настоящем мотеле, всё как в кино!</p>
         </li>
         <li class="title-advantage-numbering-food">
-          <img class="title-advantage-numbering-food-image" src="images/index/index_food.svg" width="73,81" height="70"
-            alt="">
-          <h4 class="headline advantage-city-title">Еда</h4>
+          <div class="title-advantage-numbering-food-image"></div>
+          <h4 class="headline-advantages">Еда</h4>
           <p class="advantage-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
         </li>
         <li class="title-advantage-numbering-souvenirs">
-          <img class="title-advantage-numbering-souvenirs-image" src="images/index/index_souvenirs.svg" width="64"
-            height="75,95" alt="">
-          <h4 class="headline advantage-city-title">Сувениры</h4>
+          <div class="title-advantage-numbering-souvenirs-image"></div>
+          <h4 class="headline-advantages">Сувениры</h4>
           <p class="advantage-description">Не только китайского, но и настоящего местного производства!</p>
         </li>
         </li>
         <li class="title-advantage-numbering-bridge">
           <h3 class="headline-advantages">Там есть мост дьявола</h3>
+          <span class="number-advantage">— №2 —</span>
           <p class="advantage-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-          <img class="advantage-reason-bridge" src="/images/reason_2.jpg" width="800" height="384"
+          <img class="advantage-reason-bridge" src="images/reason-2.jpg" width="800" height="384"
             alt="Мост свода дьявола, Sedona, Аризона, США">
         </li>
         <li class="title-advantage-numbering-square">
           <h3 class="headline-advantages">Небольшая площадь</h3>
+          <span class="number-advantage">— №3 —</span>
           <p class="advantage-description">Все достопримечательности находятся очень близко</p>
         </li>
         <li class="title-advantage-numbering-road">
           <h3 class="headline-advantages">Красивая дорога</h3>
+          <span class="number-advantage">— №4 —</span>
           <p class="advantage-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
         </li>
         <li class="title-advantage-numbering-tourist">
           <h3 class="headline-advantages">Мало туристов</h3>
+          <span class="number-advantage">— №5 —</span>
           <p class="advantage-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
         </li>
-      </ol>
+      </ul>
     </section>
     <section class="index-search-hostels">
       <h2 class="headline-search-hostels">Заинтересовались?</h2>
@@ -119,9 +120,11 @@
       <form class="form-subscribe" action="https://echo.htmlacademy.ru/" method="POST">
         <p class="form-subscribe-email">
           <input type="email" id="subscribe-email" name="subscribe-email" placeholder="Вашe e-mail">
+        <div class="button-subscribe">
           <button class="button-new-subscribe" type="submit">
             Подписаться
           </button>
+        </div>
         </p>
       </form>
     </section>
@@ -144,7 +147,7 @@
             <span class="visually-hidden">Ютуб</span>
           </a>
         </li>
-        <li class="footer-social-item">
+        <li class="footer-mobile-number">
           <a class="mobile-number" href="#">
             <span class="visually-hidden">Номер телефона</span>
             <span class="mobile-number-self">+7 (812) 812-12-12</span>
@@ -160,12 +163,14 @@
   </footer>
   <section class="search-hostels-sedona">
     <form class="form-search-hostels" action="https://echo.htmlacademy.ru/" method="GET">
-      <h2 class="headline search-hostels">Поиск гостиниы в седоне</h2>
-      <button class="button-close" type="button">
-        <span class="visually-hidden">
-          Закрыть
-        </span>
-      </button>
+      <h2 class="headline-search-hostels">Поиск гостиниы в седоне</h2>
+      <div class="button-close-form">
+        <button class="button-close" type="button">
+          <span class="visually-hidden">
+            Закрыть
+          </span>
+        </button>
+      </div>
       <p class="form-search-hostels-info">
         Дата Заезда:
         <input type="date" id="arrival-date" name="arrival-date" value="2020-04-27">
@@ -189,9 +194,11 @@
       </div>
       <input type="number" id="child-amount" name="child-amount" value="1">
       </p>
-      <button class="button-search-hostels" type="submit">
-        Найти
-      </button>
+      <div class="button-search-form">
+        <button class="button-search-hostels" type="submit">
+          Найти
+        </button>
+      </div>
     </form>
   </section>
 </body>
