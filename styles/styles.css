@@ -201,7 +201,7 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  padding: 63px 290px 31px;
+  padding: 63px 273px 31px;
   margin: 0;
 }
 
@@ -211,7 +211,7 @@ body {
   line-height: 26px;
   color: #333333;
   padding-left: 272px;
-  padding-right: 273px;
+  padding-right: 270px;
   padding-bottom: 90px;
   font-weight: 400;
 }
@@ -630,6 +630,7 @@ body {
   flex-direction: row;
   margin: 0 auto;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .catalog-filter-list {
@@ -743,7 +744,7 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .range-wrapper-inputs {
@@ -880,7 +881,7 @@ body {
   padding: 14px 15px;
   border: none;
   background-color: #82b3d3;
-  margin: 59px 0 20px auto;
+  margin: 40px 0 20px auto;
 }
 
 .button-clear {
@@ -892,7 +893,6 @@ body {
 }
 
 .catalog-filter-filtered {
-  margin-top: 40px;
   margin-bottom: 15px;
   font-style: normal;
   font-weight: 700;
