@@ -1608,20 +1608,24 @@ body {
   background: url("../images/select-arrow.svg") no-repeat 126px 17px;
 }
 .navigation-link-brown:hover,
-.hostels-card-button-brown:hover {
+.hostels-card-button-brown:hover,
+.index-search-hostels-link-brown:hover {
   background-color: #615048;
   cursor: pointer;
 }
 
 .navigation-link-brown:focus,
 .button-card:focus,
-.hostels-card-button-brown:focus {
+.index-search-hostels-link-brown:focus,
+.hostels-card-button-brown:focus
+{
   background-color: #615048;
 }
 
 .navigation-link-brown:active,
 .button-card:active,
-.hostels-card-button-brown:active{
+.hostels-card-button-brown:active,
+.index-search-hostels-link-brown:active{
   color: rgba(255, 255, 255, 0.3);
 }
 
@@ -1631,7 +1635,8 @@ body {
 .favorite-blue:disabled,
 .favorite-green:disabled,
 .button-accept:disabled,
-.hostels-card-button-brown:disabled{
+.hostels-card-button-brown:disabled,
+.index-search-hostels-link-brown:disabled{
   color: rgba(255, 255, 255, 0.3);
 }
 .navigation-link:hover,
