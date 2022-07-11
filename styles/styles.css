@@ -88,7 +88,7 @@ body {
 
 .navigation-link {
   display: block;
-  padding: 20px 0 19px;
+  padding: 23px 0 19px;
   text-decoration: none;
   color: #000000;
   box-sizing: border-box;
@@ -703,15 +703,15 @@ body {
 }
 
 .control-radio:hover .control-mark {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .control-input[type="radio"]:focus + .control-mark {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .control-radio:active .control-mark {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .filter-catalog-item {
@@ -1391,8 +1391,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 22px;
-  height: 22px;
+  width: 45px;
+  height: 45px;
   padding: 0;
   background-color: transparent;
   border: none;
@@ -1400,11 +1400,11 @@ body {
 }
 
 .button-decrease {
-  right: 97px;
+  right: 90px;
 }
 
 .button-increase {
-  right: 15px;
+  right: 0;
 }
 
 .modal-icon-decrease,
@@ -1537,7 +1537,7 @@ body {
 .search-form-field:hover,
 .search-form-quantity:hover {
   color: rgba(0, 0, 0, 0.6);
-  background-color: #e6e6e6;
+  /* background-color: #e6e6e6; */
 }
 
 .search-form-field:focus,
