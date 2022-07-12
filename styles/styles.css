@@ -179,6 +179,7 @@ body {
   background-image: url("../images/index/index-background-welcom.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  background-color: #68a2ca;
   text-align: center;
   padding: 51px 0 0;
 }
@@ -369,7 +370,8 @@ body {
 .subscribe {
   color: #ffffff;
   background-image: url("../images/index/index_background_spam.jpg");
-  background-size: 100% auto;
+  background-size: cover;
+  background-color: #756157;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -556,7 +558,7 @@ body {
 .inner-header {
   background-color: #81b3d2;
   background-image: url("../images/catalog-background.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
   padding: 35px 70px 70px;
@@ -1553,7 +1555,10 @@ body {
   background-color: #ffffff;
   outline: 2px solid #000000;
 }
-
+.button-decrease:hover,
+.button-increase:hover{
+  cursor: pointer;
+}
 .button-decrease:hover .modal-icon-decrease,
 .button-increase:hover .modal-icon-increase {
   fill: #000000;
